@@ -72,5 +72,6 @@ var styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('HelloWorld', () => UIExplorerApp);
+AppRegistry.registerComponent('UIExplorerApp', () => UIExplorerApp);
 
+module.exports = UIExplorerApp;
